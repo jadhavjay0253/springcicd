@@ -10,5 +10,4 @@ public class AppController {
 	public String getHome() {
 		return "home";
 	}
-
 }
