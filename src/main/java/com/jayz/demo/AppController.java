@@ -10,4 +10,10 @@ public class AppController {
 	public String getHome() {
 		return "home";
 	}
+
+	@GetMapping("/use")
+	public String getme() {
+		return "Finally running, thanks get lost AWS...";
+	}
+
 }
